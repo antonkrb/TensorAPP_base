@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D3D611D1DC7BE0B00B097B4 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D611C1DC7BE0B00B097B4 /* CoreDataStack.swift */; };
 		9D49B0A61DBEA17300C0B1CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D49B0A51DBEA17300C0B1CF /* AppDelegate.swift */; };
-		9D49B0A81DBEA17300C0B1CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D49B0A71DBEA17300C0B1CF /* ViewController.swift */; };
 		9D49B0AB1DBEA17300C0B1CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D49B0A91DBEA17300C0B1CF /* Main.storyboard */; };
 		9D49B0AE1DBEA17300C0B1CF /* TensorAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D49B0AC1DBEA17300C0B1CF /* TensorAPP.xcdatamodeld */; };
 		9D49B0B01DBEA17300C0B1CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D49B0AF1DBEA17300C0B1CF /* Assets.xcassets */; };
 		9D49B0B31DBEA17300C0B1CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D49B0B11DBEA17300C0B1CF /* LaunchScreen.storyboard */; };
+		9DB828761DC2A6CF00D89E64 /* SubsTableViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB828751DC2A6CF00D89E64 /* SubsTableViewControllers.swift */; };
+		9DE711771DC14F6200033DE8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE711761DC14F6200033DE8 /* TableViewController.swift */; };
+		9DE711791DC159C700033DE8 /* titleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE711781DC159C700033DE8 /* titleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D3D611C1DC7BE0B00B097B4 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		9D49B0A21DBEA17300C0B1CF /* TensorAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TensorAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D49B0A51DBEA17300C0B1CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D49B0A71DBEA17300C0B1CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9D49B0AA1DBEA17300C0B1CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D49B0AD1DBEA17300C0B1CF /* TensorAPP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TensorAPP.xcdatamodel; sourceTree = "<group>"; };
 		9D49B0AF1DBEA17300C0B1CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D49B0B21DBEA17300C0B1CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D49B0B41DBEA17300C0B1CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB828751DC2A6CF00D89E64 /* SubsTableViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubsTableViewControllers.swift; sourceTree = "<group>"; };
+		9DE711761DC14F6200033DE8 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
+		9DE711781DC159C700033DE8 /* titleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = titleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				9D49B0A51DBEA17300C0B1CF /* AppDelegate.swift */,
-				9D49B0A71DBEA17300C0B1CF /* ViewController.swift */,
+				9DE711761DC14F6200033DE8 /* TableViewController.swift */,
+				9D3D611C1DC7BE0B00B097B4 /* CoreDataStack.swift */,
+				9DB828751DC2A6CF00D89E64 /* SubsTableViewControllers.swift */,
 				9D49B0A91DBEA17300C0B1CF /* Main.storyboard */,
+				9DE711781DC159C700033DE8 /* titleTableViewCell.swift */,
 				9D49B0AF1DBEA17300C0B1CF /* Assets.xcassets */,
 				9D49B0B11DBEA17300C0B1CF /* LaunchScreen.storyboard */,
 				9D49B0B41DBEA17300C0B1CF /* Info.plist */,
@@ -139,9 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D49B0A81DBEA17300C0B1CF /* ViewController.swift in Sources */,
+				9D3D611D1DC7BE0B00B097B4 /* CoreDataStack.swift in Sources */,
 				9D49B0AE1DBEA17300C0B1CF /* TensorAPP.xcdatamodeld in Sources */,
 				9D49B0A61DBEA17300C0B1CF /* AppDelegate.swift in Sources */,
+				9DE711791DC159C700033DE8 /* titleTableViewCell.swift in Sources */,
+				9DB828761DC2A6CF00D89E64 /* SubsTableViewControllers.swift in Sources */,
+				9DE711771DC14F6200033DE8 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +313,7 @@
 				9D49B0B91DBEA17300C0B1CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
